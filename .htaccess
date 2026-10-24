@@ -1,0 +1,5 @@
+DirectoryIndex index.html index.htm index.php
+Options -Indexes
+<IfModule mod_mime.c>
+  AddType text/html .html
+</IfModule>
